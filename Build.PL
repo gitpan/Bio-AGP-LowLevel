@@ -3,7 +3,7 @@ my $build = Module::Build->new(
 
     module_name        => 'Bio::AGP::LowLevel',
     dist_author	       => ['Robert Buels <rmb32@cornell.edu>', 'Sheena Scroggins <sheena.scroggins@gmail.com>'],
-    dist_version       => '0.01',
+    dist_version       => '0.02',
     license            => 'perl',
     dist_abstract      => 'low-level functions for working with Accessioned Golden Path (AGP) files',
     create_readme      => 1, 

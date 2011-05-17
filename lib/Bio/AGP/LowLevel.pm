@@ -13,16 +13,13 @@ use List::Util qw/first/;
 Bio::AGP::LowLevel - functions for dealing with AGP files
 
 =head1 SYNOPSIS
-
- $bio_large_seq = agp_to_seq($agp_file_name);
+ 
 
  $lines_arrayref = agp_parse('my_agp_file.agp');
 
  agp_write( $lines => 'my_agp_file.agp');
 
- $seq = agp_contig_seq( $mycontig,
-                        fetch_bac_sequences => sub {...}
-                       )
+
 
 =head1 DESCRIPTION
 
@@ -394,6 +391,8 @@ sub agp_contigs {
 =head1 AUTHOR(S)
 
 Robert Buels
+
+Sheena Scroggins
 
 =cut
 
